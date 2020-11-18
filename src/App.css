@@ -1,0 +1,38 @@
+/* =========Global CSS======== */
+body {
+  font-size: 13px !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+.fullHeight {
+  height: 100vh !important;
+}
+.clickablekLink {
+  color: #007bff !important;
+  cursor: pointer;
+}
+.publicBackground {
+  background-image: url("./contents/images/publicPageBackGround.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginRegistrationcardShadow {
+  box-shadow: 15px 15px 16px #000;
+  border: 0px solid #fff !important;
+  padding: 10px !important;
+  border-radius: 50px 20px !important;
+}
+.required:before {
+  content: " *";
+  color: red;
+}
+.errorMsg {
+  color: red;
+}
+.publicLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}

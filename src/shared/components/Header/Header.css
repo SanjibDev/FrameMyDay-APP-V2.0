@@ -1,0 +1,24 @@
+.headerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
+}
+.header {
+  height: 45px;
+  background-color: #33b0ff !important;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navigationLinks {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  color: #000 !important;
+}
